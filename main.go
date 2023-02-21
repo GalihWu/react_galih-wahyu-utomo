@@ -8,5 +8,6 @@ func main() {
 	fmt.Println("G")
 	fmt.Println("B")
 	fmt.Println("C")
-	fmt.Println("feature B")
+	fmt.Println("D")
+	fmt.Println("feature B Sub")
 }
