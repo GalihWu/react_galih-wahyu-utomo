@@ -13,10 +13,10 @@ Front end adalah sebuah bagian dari website yang membuat tampilan yang menarik k
 HTML (_Hypertext Markup Language_) adalah sebuah standar yang digunakan secara luas untuk menampilkan halaman web.
 
 - <! DOCTYPE html> = Mendefinisikan dokumen ini sebagai HTML 5
-- <html>			= elemen rootdari halaman html
-- <head>		= berisi informasi meta tentang dokumen
-- <title>			= Judul dokumen
-- <body>			= konten
+- html			= elemen rootdari halaman html
+- head		= berisi informasi meta tentang dokumen
+- title			= Judul dokumen
+- body			= konten
 
 ## **3. Kegunaan HTML**
 
