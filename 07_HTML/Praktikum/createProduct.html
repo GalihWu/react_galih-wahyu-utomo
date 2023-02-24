@@ -11,7 +11,15 @@
     <h2>Detail Product</h2>
     <form>
       <label for="name">Product name :</label><br />
-      <input type="text" id="name" name="name" size="30" /><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        size="30"
+        minlength="6"
+        maxlength="50"
+        required
+      /><br />
       <label for="category">Product category : </label> <br />
       <select name="category" id="category">
         <option value="T"></option>
@@ -20,15 +28,42 @@
         <option value="aksesoris">Aksesoris</option></select
       ><br />
       <label for="freshness">Product Freshness</label><br />
-      <input type="radio" name="Freshness" id="BrandNew" /><label for="BrandNew"> Brand New</label><br />
-      <input type="radio" name="Freshness" id="SecondHank" /><label for="SecondHank"> Second Hank</label> <br />
-      <input type="radio" name="Freshness" id="Refurbished" /><label for="Refurbished"> Refurbished</label><br />
-      <label for="image">Image of Product </label><input type="file" id="myfile" name="myfile" value="Choose File" /><br />
+      <input type="radio" name="Freshness" id="BrandNew" required /><label
+        for="BrandNew"
+      >
+        Brand New</label
+      ><br />
+      <input type="radio" name="Freshness" id="SecondHank" required /><label
+        for="SecondHank"
+      >
+        Second Hank</label
+      >
+      <br />
+      <input type="radio" name="Freshness" id="Refurbished" required /><label
+        for="Refurbished"
+      >
+        Refurbished</label
+      ><br />
+      <label for="image">Image of Product </label
+      ><input type="file" id="myfile" name="myfile" value="Choose File" /><br />
       <label for="description">Additional Description</label><br />
       <textarea cols="40" rows="8"></textarea><br />
       <label for="price">Product Price : </label><br />
-      <input type="number" placeholder="100$" style="width: 40px" required /><br />
-      <input type="Submit" value="Submit" />
+      <input
+        type="number"
+        placeholder="100$"
+        style="width: 50px"
+        required
+      /><br />
+      <input type="Submit" value="Submit" required />
     </form>
+    <br />
+    <button>
+      <a
+        href="/07_HTML/Praktikum/prioritas html/landingPage.html"
+        style="text-decoration: none; color: black"
+        >Masuk ke Landing Page</a
+      >
+    </button>
   </body>
 </html>
