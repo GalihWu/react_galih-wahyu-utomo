@@ -11,6 +11,8 @@
   padding: 94px 120px;
   background-color: #37517e;
   color: #fff;
+  font-family: jost;
+  font-weight: 300;
 }
 
 .left-content {
@@ -59,6 +61,8 @@ img {
   padding: 44px 0;
   gap: 16px;
   background-color: #f3f5fa;
+  font-family: jost;
+  font-weight: 300;
 }
 
 .input-field {
@@ -84,6 +88,11 @@ img {
   background-color: #47b2e4;
   color: #fff;
   font-size: 16px;
+}
+
+footer {
+  font-family: jost;
+  font-weight: 300;
 }
 .footer-top {
   display: flex;
