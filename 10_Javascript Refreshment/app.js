@@ -10,44 +10,29 @@ document.getElementById('submitbtn').addEventListener('click', function () {
   event.preventDefault();
   if (productName.length > 25) {
     alert('Last Name must not exceed 25 characters.');
-    return;
-  }
-  if (productName === '') {
+  } else if (productName === '') {
     alert('Please enter a valid Prouct name.');
-    return;
-  }
-  if (productName.match(/[!@#$%^&*(),.?":{}|<>]/)) {
+  } else if (productName.match(/[!@#$%^&*(),.?":{}|<>]/)) {
     alert('Name must not contain symbols.');
-    return;
-  }
-  if (category === '') {
+  } else if (category === '') {
     alert('The Product Category field must be filled in.');
-    return;
-  }
-  if (imageProduct === '') {
+  } else if (imageProduct === '') {
     alert('The Image of Product field must be filled in.');
-    return;
-  }
-  if (!freshness) {
+  } else if (!freshness) {
     alert('The Product Freshness field must be filled in.');
-    return;
-  }
-  if (additional === '') {
+  } else if (additional === '') {
     alert('The Additional Description field must be filled in.');
-    return;
-  }
-  if (productPrice === '') {
+  } else if (productPrice === '') {
     alert('Please enter a valid Product Price.');
-    return;
   } else {
     alert(
       'Product Name: ' +
         productName +
-        ' Product Category: ' +
+        '\nProduct Category: ' +
         category +
-        ' Additional: ' +
+        '\nAdditional: ' +
         additional +
-        ' Product Price: ' +
+        '\nProduct Price: ' +
         productPrice
     );
   }
