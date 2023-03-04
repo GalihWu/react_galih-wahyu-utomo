@@ -30,10 +30,13 @@ document.getElementById('submitbtn').addEventListener('click', function () {
         productName +
         '\nProduct Category: ' +
         category +
+        '\nProduct Freshness: ' +
+        freshness.value +
         '\nAdditional: ' +
         additional +
         '\nProduct Price: ' +
-        productPrice
+        productPrice +
+        '$'
     );
   }
 });
