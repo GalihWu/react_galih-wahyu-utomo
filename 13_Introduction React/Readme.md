@@ -1,4 +1,4 @@
-# **Resume - Introduction React**
+edX# **Resume - Introduction React**
 
 ## **1. Apa itu React**
 
@@ -6,8 +6,10 @@ React adalah **Library javascript** untuk membuat **User Interface(UI) yang inte
 
 ## **2. Kegunaan dan keunggulan React**
 
-- Deklarative = pendekatan ketika ngoding yang berfokus pada (What) apa yang ingin kita capai
+- Deklarative
+  Dengan konsep deklaratif, pembuatan antarmuka pengguna dapat lebih cepat. Pasalnya, kita cukup fokus terhadap apa yang ingin dicapai. Tak ada kode imperatif lagi ketika menggunakan React.
 - Berbasis komponen
+  Komponen membuat antarmuka yang dibangun menggunakan React sangat reusable. kita tidak perlu menuliskan kode yang sama berulang kali untuk menggunakan antarmuka yang serupa.
 - Belajar sekali, tulis dimana saja
 
 ## **3. Virtual DOM**
