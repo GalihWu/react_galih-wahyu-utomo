@@ -1,11 +1,8 @@
 import styles from './style.css';
 import bootstrap from './bootstrap/bootstrap.min.css';
 import iconBootstrap from './img/Bootstrap.png';
-// import { validateForm, addToTable, handleFormSubmit } from './app.js';
+
 export default function Page() {
-  //   validateForm();
-  //   addToTable();
-  //   handleFormSubmit();
   let noProduct = 1;
   const validateForm = () => {
     const productName = document.getElementById('produkname').value;
