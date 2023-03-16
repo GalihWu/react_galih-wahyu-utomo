@@ -1,8 +1,9 @@
-import styles from './style.css';
-import bootstrap from './bootstrap/bootstrap.min.css';
+import './style.css';
+import './bootstrap/bootstrap.min.css';
 import iconBootstrap from './img/Bootstrap.png';
 import { article } from './article';
 import { useState } from 'react';
+import Navbar from './component/navbar';
 
 export default function Page() {
   let noProduct = 1;
@@ -88,48 +89,7 @@ export default function Page() {
 
   return (
     <>
-      {/* navbar */}
-      <nav className="navbar navbar-expand-lg shadow fixed-top">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Simple Header
-          </a>
-          <div>
-            <ul className="nav nav-pills">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Active
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  FAQs
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
       {/* content */}
       <section className="section">
         <div className="container-fluid">
