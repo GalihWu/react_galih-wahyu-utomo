@@ -6,9 +6,9 @@ import { article } from './article';
 import { useEffect, useState } from 'react';
 
 export default function Page() {
-  // useEffect(() => {
-  //   alert('Welcome');
-  // }, []);
+  useEffect(() => {
+    alert('Selamat Datang');
+  }, []);
 
   const [data, setData] = useState({
     productName: ' ',
@@ -262,7 +262,7 @@ export default function Page() {
                       }
                     }}
                   >
-                    Deletion
+                    Delete
                   </button>
                   <button type="button" className="btn btn-success">
                     Edit
@@ -293,12 +293,12 @@ type="text"
           Search
           </button>
           </div>
+          <div style={{ width: '240px', marginTop: '24px' }}>
+            <button className="btn btn-primary" onClick={randomNumber}>
+              Random Number
+            </button>
+          </div>
         */}
-        <div style={{ width: '240px', marginTop: '24px' }}>
-          <button className="btn btn-primary" onClick={randomNumber}>
-            Random Number
-          </button>
-        </div>
       </section>
     </>
   );
