@@ -2,7 +2,7 @@
 
 ## Global state
 
-Global adalah objek JavaScript yang menyimpan data yang digunakan oleh React untuk merender komponen dengan konten dinamis berdasarkan tindakan pengguna.
+Global state adalah objek JavaScript yang menyimpan data yang digunakan oleh React untuk merender komponen dengan konten dinamis berdasarkan tindakan pengguna.
 
 ## Redux
 
