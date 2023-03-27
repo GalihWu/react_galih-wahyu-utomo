@@ -13,6 +13,8 @@ Form dapat digunakan untuk _menghandle inputan_ dari user. Form banyak kita jump
 - Radio Button
 - Checkbox
 
+
+
 ## 2. Controlled Component & Uncontrolled Component
 
 Sebuah element HTML yang valuenya dikontrol oleh React disebut _controlled component_, selain itu disebut _uncontrolled component._
