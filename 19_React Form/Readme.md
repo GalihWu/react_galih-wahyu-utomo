@@ -7,9 +7,9 @@ Form dapat digunakan untuk _menghandle inputan_ dari user. Form banyak kita jump
 
 **Macam Form**
 
-- Element <input>
-- Element <textarea>
-- Element <select>
+- Element input
+- Element textarea
+- Element select
 - Radio Button
 - Checkbox
 
