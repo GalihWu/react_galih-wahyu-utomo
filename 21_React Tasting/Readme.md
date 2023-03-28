@@ -35,10 +35,10 @@ React Testing Library digunakan untuk berinteraksi dengan komponen kita seperti 
 **Memilih Elemen**
 React Testing Library menawarkan berbagai fungsi untuk mendapatkan elemen. Element selanjutnya digunakan untuk assertions atau untuk interaksi pengguna. Kita dapat memilih elemen dengan fungsi object screen RTL. Salah satu contohnya ialah getByText untuk memilih teks dari elemen yang sudah dipilih. Contoh lain yang bisa digunakan.
 
-- LabelText: getByLabelText: <label for="search" />
-- PlaceholderText: getByPlaceholderText: <input placeholder="Search" />
-- AltText: getByAltText: <img alt="profile" />
-- DisplayValue: getByDisplayValue: <input value="JavaScript" />
+- getByLabelText
+- getByPlaceholderText
+- getByAltText
+- getByDisplayValue
 
 ## 3. Testing Custom Hook
 
