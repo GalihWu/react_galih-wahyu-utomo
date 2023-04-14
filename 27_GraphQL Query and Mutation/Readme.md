@@ -10,4 +10,4 @@
 
 ## 3. Perbedaan antara Query dan Mutation
 
-Perbedaan utama antara Query dan Mutation adalah bahwa Query digunakan untuk mengambil data dari server, sedangkan Mutation digunakan untuk memperbarui atau mengubah data pada server. Selain itu, Query umumnya tidak memiliki efek samping, artinya tidak ada data yang diubah, sedangkan Mutation dapat memengaruhi data pada server dan memiliki efek samping.
+Perbedaan utama antara Query dan Mutation adalah bahwa Query digunakan untuk mengambil data dari server, sedangkan Mutation digunakan untuk memperbarui atau mengubah data pada server. Selain itu, Query umumnya tidak memiliki efek samping, artinya tidak ada data yang diubah, sedangkan Mutation dapat memengaruhi data pada server dan memiliki efek samping. 
