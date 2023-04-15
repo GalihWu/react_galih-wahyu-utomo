@@ -5,6 +5,7 @@
 Tujuan melakukan **build** pada aplikasi kita menjadi versi _production_ sehingga performanya lebih _cepat dan ringan_.
 
 **Build React App**
+
 Kalau menggunakan CRA
 
 ```sh
@@ -12,6 +13,7 @@ npm run build
 ```
 
 **Run Optimizes App**
+
 Untuk mengoptimalkan aplikasi di local komputer
 
 ```sh
@@ -27,6 +29,7 @@ serve - s build
 Deployment adalah kegiatan yang bertujuan untuk _menyebarkan aplikasi_ yang sudah kita buat.
 
 **Deployment menggunakan Vercel**
+
 Vercel deployment adalah platform cloud yang menyediakan layanan deployment untuk aplikasi web dan serverless. Vercel menyediakan berbagai fitur dan alat yang memudahkan proses deployment, seperti integrasi dengan platform Git dan dukungan untuk berbagai bahasa pemrograman dan kerangka kerja seperti Next.js, React, dan Vue.js.
 
 ## 3. Langkah-langkah deploy menggunakan vercel
